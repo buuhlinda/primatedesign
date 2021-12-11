@@ -1,0 +1,132 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+
+/*Parte 1*/
+
+header {
+    display:flex;
+    justify-content:center;
+    margin-top:-20px;
+    height:175px;
+}
+
+.container, .container2 {
+    display:flex;
+    justify-content:center;
+    width:calc(100% - 64px);
+    margin:0 30px;
+    font-family:'Poppins', sans-serif;
+}
+
+.container2 {
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo {
+    display:flex;
+    width:200px;
+    height:auto;
+    margin-right:10px;
+}
+
+.tit {
+    display:flex;
+    font-size:24px;
+    font-weight:600;
+}
+
+.lista {
+    display:flex;
+    align-items:center;
+}
+
+nav ul {
+    display:flex;
+}
+
+nav li {
+    padding:0px 10px 0px 10px;
+    font-size:16px;
+    font-weight:100;
+    font-family:'Poppins', sans-serif;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+
+nav a {
+    color:#000;
+    text-decoration:none;
+}
+
+nav .ativo {
+    border-bottom:2px solid #000;
+}
+
+nav a:hover {
+    border-bottom:1px solid #000;
+}
+    
+.tit {
+    align-items:center;
+    justify-content:center;
+}
+
+.tit a {
+    color:#000;
+    text-decoration:none;
+}
+
+
+/*Parte 2*/
+
+.area, .area1 {
+    display:flex;
+    justify-content:center;
+    width:calc(100% - 64px);
+    height:auto;
+}
+
+.aaa {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:35px 0;
+}
+
+.bloco {
+    display:flex;
+    justify-content:center;
+}
+
+.bloco img {
+    border-radius:15px;
+    object-fit:cover;
+    width:750px;
+    height:auto;
+}
+
+.sub {
+    text-align:center;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:600;
+} 
+
+footer {
+    height:50px;
+}
